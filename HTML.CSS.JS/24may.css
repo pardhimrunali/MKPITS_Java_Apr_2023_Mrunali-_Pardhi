@@ -1,0 +1,26 @@
+.fifth{
+       color: red;
+     }
+.first{
+	color: white;
+	background-color: black;
+	border:2px solid red;
+
+}
+h2{
+	color:#FF0000;
+
+}
+.third{
+	color: rgb(0,50,255);
+	border: 1px solid rgb(0,255, 0);
+}
+.four{
+	color:rgba(0,50, 255,0.5);
+}
+.six{
+color:hsl(100, 0%,100%);
+    }
+    .para{
+    	color:hsla(255, 0%, 25%,0.5);
+    }
