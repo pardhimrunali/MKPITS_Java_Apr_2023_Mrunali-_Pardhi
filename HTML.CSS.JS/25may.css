@@ -1,0 +1,24 @@
+.first{
+	     width: 800px;
+	     height: 500px;
+	     border-top: 0px solid black;
+	     border-bottom: 5px dashed blue;
+	     border-left: 5px dotted brown;
+         border-right: 5px double pink;
+      }
+.second{
+          width: 800px;
+	      height: 500px;
+	      border: 5px double red;
+	      border-radius: 50%;
+       }
+
+.third{
+	     width: 800px;
+	     height: 800px;
+         border: 10px solid black;
+         border-top-left-radius: 10px ;
+         border-top-right-radius: 5px;
+         border-bottom-left-radius: 10px;
+         border-bottom-left-radius: 10px;
+      }
