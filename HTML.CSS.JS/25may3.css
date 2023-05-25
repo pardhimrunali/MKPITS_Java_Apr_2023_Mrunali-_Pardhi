@@ -1,0 +1,25 @@
+.first{
+	      height: 500px;
+	      width: 500px;
+	      border: 5px double red;
+          padding-left: 10px;
+       }
+.second{
+	       height: 500px;
+	       width: 500px;
+	       border: 5px double red;
+	       padding-right: 20px;
+	    }
+.third  {
+           height: 500px;
+	       width: 500px;
+	       border: 5px double red;
+	       padding-bottom: 10px;
+	    }
+.four   {
+           height: 500px;
+	       width: 500px;
+	       border: 5px double red;
+	       padding-bottom: 50px;
+	    }
+	  
