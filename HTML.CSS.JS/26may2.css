@@ -1,0 +1,19 @@
+.border{
+	height: 200px;
+	width: 100px;
+	border-width: 15px;
+	border-color: black;
+	margin: 20px;
+}
+.mar{
+	margin: 20px;
+	margin-bottom: 10px;
+}
+.marg{
+	margin: 10px;
+	margin-bottom: 10px;
+}
+.bor{
+       margin: 10px;
+    }
+
