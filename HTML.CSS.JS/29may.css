@@ -1,0 +1,37 @@
+
+
+.first{
+      font-size: larger;
+      margin: 30px;
+
+      }
+.second{
+          font-family: serif;
+           margin: 30px;
+       }
+.third{
+          font-style: oblique;/*font style value obliue,italic,normal*/
+           margin: 30px;
+      }
+.four{
+         font-weight:bold;/*value between 100 to 900*/
+          margin: 30px;
+     }
+.five{
+         font-variant: small-caps;
+          margin: 30px;
+     }
+.six{
+         color:red;
+          margin: 30px;
+    }
+.seven{
+         font-size: 50px;
+         font-family: 'Pangolin', cursive;/* to use various font family we use google font then by using link we give name we declare link in head*/
+      }
+.eight{
+          font-size:30px;
+          font-family: 'Pangolin', cursive;
+font-family: 'Ubuntu', sans-serif;
+                                      /*when we import we need to give link in style */
+      }
