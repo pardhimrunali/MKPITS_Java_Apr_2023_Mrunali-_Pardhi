@@ -1,0 +1,26 @@
+ul{
+	
+	 color: #457ede;
+     font-size:30px;
+	 width:100% ;
+	 font-family: cursive;
+	 background-color: #6f9ae3;
+  }
+  li{
+  	display: inline-block;
+  }
+  a{
+	 
+	 text-decoration:none;
+	 margin:40px;
+    }
+    
+a:hover{
+           background-color:cyan;
+       }
+  img{
+
+  	 align:left;
+  	   border-radius:55% ;
+         
+     }
