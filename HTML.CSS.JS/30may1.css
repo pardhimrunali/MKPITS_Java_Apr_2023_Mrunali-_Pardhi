@@ -5,6 +5,9 @@ ul{
 	 width:100% ;
 	 font-family: cursive;
 	 background-color: #6f9ae3;
+	 align-items:center;
+	 display: flex;
+	 justify-content: center;
   }
   li{
   	display: inline-block;
@@ -16,7 +19,7 @@ ul{
     }
     
 a:hover{
-           background-color:cyan;
+           background-color: #92b7e0;
        }
   img{
 
