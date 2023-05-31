@@ -8,6 +8,7 @@ ul{
 	 align-items:center;
 	 display: flex;
 	 justify-content: center;
+	 box-shadow: 2px 3px 5px 10px #204275;
   }
   li{
   	display: inline-block;
@@ -23,7 +24,8 @@ a:hover{
        }
   img{
 
-  	 align:left;
+  	    
   	   border-radius:55% ;
+  	   margin:0px 350px 0px 0px;
          
      }
