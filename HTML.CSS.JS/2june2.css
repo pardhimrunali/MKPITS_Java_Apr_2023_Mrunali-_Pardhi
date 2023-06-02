@@ -2,8 +2,12 @@
      
     height: 300px;
     width: 30%;
-    border: 4px solid red;
-    background-color: black;
+    border: 4px solid rgb(39, 30, 30);
+    background-color: rgb(177, 127, 127);
+    position: relative;
+    top: 30px;
+    left: 20px;
+    z-index: 1;
     
 
 }
@@ -13,4 +17,8 @@
     width: 30%;
     border: 4px solid rgb(0, 119, 255);
     background-color:aqua;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+     z-index: 2;
 }

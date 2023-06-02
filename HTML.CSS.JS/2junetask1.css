@@ -1,0 +1,39 @@
+.first{
+       height: 200px;
+       width: 200px;
+       background-color: rgb(245, 127, 229);
+       /* border: 2px solid black; */
+       border-radius: 50%;
+       position: relative;
+       z-index: 1;
+       opacity: 0.3;
+       top: 210px;
+       
+}
+.second{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(109, 139, 184);
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    position: absolute;
+    z-index: -2;
+    left: 20px;
+    opacity: 0.5;
+    top: 100px;
+    left: 40px;
+    
+}
+.third{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(105, 206, 159);
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    left: 120px;
+
+    opacity: 0.8;
+    
+}
