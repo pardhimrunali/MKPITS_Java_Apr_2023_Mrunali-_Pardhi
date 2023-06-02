@@ -1,0 +1,13 @@
+
+.first{
+         background-color: plum;
+         height: 110px;
+         width: 100%;
+         position: sticky;
+         top:0;
+
+}
+.second{
+         background-color: bisque;
+         padding: 10px;
+}

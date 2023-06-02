@@ -1,0 +1,16 @@
+
+.first{
+    background-color: rgb(118, 90, 221);
+    height: 110px;
+    width: 100%;
+    position: fixed;
+    bottom: 20px;
+
+}
+.second{
+    background-color: rgb(243, 204, 156);
+    
+}
+p{
+    padding: 5px;
+}

@@ -1,0 +1,20 @@
+
+.first{
+    background-color: rgb(73, 243, 73);
+    height: 110px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    box-shadow:2px 5px 2px 7px seagreen ;
+    margin: 20px;
+    
+
+}
+.second{
+    background-color: rgb(241, 240, 128);
+    margin: 22px;
+    padding-top:200px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
