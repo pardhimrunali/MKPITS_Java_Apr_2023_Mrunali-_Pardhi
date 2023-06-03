@@ -1,9 +1,10 @@
 .first{
           height: 200px;
-          width: 50px;
-          background-color:  4px solid rgb(185, 39, 71);
-          /* border-top-left-radius: 20px;
-          border-top-left-radius: 20px;
-          border-bottom-left-radius:20px ;
-          border-bottom-right-radius:20px ; */
+          width: 90px;
+          /* border: 2px solid red; */
+          background-color:pink;
+           border-top-left-radius: 50px;
+          border-top-right-radius: 50px;
+          border-bottom-left-radius:50px ;
+          border-bottom-right-radius:50px ; 
 }

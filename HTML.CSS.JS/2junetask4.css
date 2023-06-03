@@ -1,0 +1,55 @@
+.first{
+        height: 150px;
+        width: 150px;
+        background-color: aqua;
+        border-radius: 50%;
+        position: relative;
+        z-index: 1;
+        top: 160px;
+        left: 200px;
+}
+.second{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(196, 155, 44);
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    top: 10px;
+
+}
+.third{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(22, 165, 53);
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    bottom: 50px;
+    left: 100px;
+
+}
+.four{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(68, 41, 168);
+    border-radius: 50%;
+    position: relative;
+    z-index: -11;
+    bottom: 130px;
+
+}
+
+.five{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(190, 36, 36);
+    border-radius: 50%;
+    position: relative;
+    z-index: -1;
+    bottom: 280px;
+    left: 200px;
+
+
+}
+
