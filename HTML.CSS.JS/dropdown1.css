@@ -53,7 +53,7 @@ body{
 .menu-bar ul li:hover .sub-menu-1 ul li{
     width: 150px;
     padding: 10px;
-    border-width:;
+    
     border-bottom: 2px solid palevioletred;
     background: transparent;
     border-radius: 0px;
