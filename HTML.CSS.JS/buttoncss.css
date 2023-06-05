@@ -24,7 +24,7 @@
 }
    .btn:hover .content{
     display:block;
-    width: 140px;
+    /* width: 140px; */
     color: black;
     font-size: 20px;
     
