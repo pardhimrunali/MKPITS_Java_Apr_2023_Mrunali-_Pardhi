@@ -1,0 +1,24 @@
+{
+    margin: 0;
+    padding:0;
+ } 
+.text{
+    height: 200px;
+    width: 800px;
+    font-family: cursive;
+    font-size: 20px;
+    position: relative;
+    left: 100px;
+    /* overflow: hidden; */
+   
+}
+h1{
+    align:center;
+    margin-top: 20px;
+    color:hwb(0 98% 1%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-image: url(ph.jpg);
+    background-size: cover;
+}
