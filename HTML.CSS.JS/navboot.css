@@ -1,0 +1,10 @@
+.btn{
+    background-color: rgb(155, 88, 218);
+    padding: 20px;
+    margin: 30px;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px 5px black;
+}
+.btn:hover{
+    background-color: aqua;
+}
