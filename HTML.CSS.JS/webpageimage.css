@@ -1,0 +1,90 @@
+.navbar{
+    
+    box-shadow: 5px 5px 5px 5px  rgb(23, 6, 68);
+    background-color:rgb(27, 49, 175);
+    outline: 5px solid  rgb(46, 7, 58);
+    font-family: cursive;
+
+    
+    
+
+
+}
+body{
+    background-color: aquamarine;
+}
+.collapse .navbar-nav .nav-item .nav-link {
+    color: black;
+     font-size: 25px;
+     margin-right: 200px;
+
+}
+
+.aimg{
+           height:400px;
+           width: 400px;
+          position: relative;
+          left: 800px;
+          bottom:100px;
+}
+.us{
+    height: 600px;
+    width: 600px;
+    margin: 30px;
+    font-family: cursive;
+}
+.about{
+    height: 600px;
+    width: 100%;
+    background-color: beige;
+}
+.container-flud{
+       height: 350px;
+       width: 100%;
+      display: flex;
+      /* background-color: rgb(145, 231, 152); */
+      background-color: black;
+      
+}
+.first{
+    margin: 45px;
+    font-size: 20px;
+    font-family: cursive;
+    color: white;
+}
+
+.second img{
+         
+         position:relative;
+         left: 100px;
+         border-radius:200px;
+         top: 20px;
+         border: 2px solid white;
+}
+.col{    height: 300px;
+         width:100%;
+     border: 2px solid black; 
+     
+}
+h1{
+    font-family: cursive;
+    margin:50px;
+    
+
+}
+.row{
+       background-color: black;
+}
+.im{
+    border-top-left-radius: 100px;
+    border-bottom-right-radius:100px ;
+    margin-top: 50px;
+    
+
+}
+h5{
+    position:relative;
+    color: white;
+    bottom: 100px;
+    
+}

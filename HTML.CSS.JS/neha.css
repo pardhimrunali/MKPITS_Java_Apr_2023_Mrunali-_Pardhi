@@ -1,0 +1,18 @@
+.navbar .container-fluid{
+    background-color: peru;
+
+}
+img{
+    border-radius: 50%;
+}
+.carousel .carousel-inner .carousel-item .d-block {
+    height: 500px;
+    width: 700px;
+}
+h1 {
+    text-align: center;
+    background-color: bisque;
+}
+
+
+

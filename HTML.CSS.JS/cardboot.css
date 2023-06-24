@@ -1,0 +1,27 @@
+.card{
+    margin: 50px;
+}
+.main{
+    display: flex;
+}
+ img{
+     position: relative;
+     left: 20px;
+     top: 100px;
+     border-radius: 50%;
+     outline: 2px solid black;
+ }
+ .card-text{
+    font-family: cursive;
+    font-size: 18px;
+ }
+ .card{
+    background-color: rgb(153, 135, 235);
+    outline: 2px solid black;
+    
+ }
+ .card-body{
+         position: relative;
+         bottom: 100px;
+         left: 210px;
+ }

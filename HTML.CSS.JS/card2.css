@@ -1,0 +1,35 @@
+.card{
+    margin: 250px;
+    outline: 5px solid blueviolet;
+    box-shadow: 15px 15px 5px 10px rgb(193, 162, 223);
+  }
+.div{
+    background-color: rgb(132, 132, 228);
+}
+img{
+    border-radius: 50%;
+    position: relative;
+    right: 50px;
+    bottom: 80px;
+    outline: 5px solid rgb(150, 150, 223);
+}
+.fa-solid{
+    font-size: 50px;
+    padding:20px;
+}
+.new1{
+    list-style-type: none;
+}
+.new1{
+    list-style-type: none;
+}
+    .card-footer{
+    background-color: bisque;
+}
+h3,h4{
+    font-family: cursive;
+    
+}
+.list-group-item{
+    background-color: rgb(164, 164, 238);
+}

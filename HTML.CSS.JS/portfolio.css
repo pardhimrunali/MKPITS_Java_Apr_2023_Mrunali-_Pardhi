@@ -1,0 +1,101 @@
+ul{
+	
+	 
+     font-size:30px;
+	 width:100% ;
+	 font-family: cursive;
+	 align-items:center;
+	 display: flex;
+	 justify-content: center;
+	 box-shadow: 2px 3px 5px 10px #021025;
+  }
+  li{
+  	display: inline-block;
+  }
+  a{
+	 
+	 text-decoration:none;
+	 margin:40px;
+    }
+    
+a:hover{
+           background-color: #d8dee6;
+       }
+  img{
+
+  	    
+  	   border-radius:55% ;
+  	   margin:0px 350px 0px 0px;
+         
+     }
+      body{
+        background-image: url(portfolio2.jpg);
+        background-size: auto;
+        background-repeat: no-repeat; 
+        
+
+     }
+  /* .text{
+    position: relative;    /* text set*/
+    left: 840px;
+    top: 150px;
+    
+  }
+  h2{
+    font-size:70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  }                                                      /*text size*/
+  h3{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  .aboutus{
+    position: relative;
+    left: 950px;
+    top: 300px;
+    /* box-shadow:10px 10px 10px 10px  grey; */
+
+  }
+  h2 .au{
+    font-size:30px;
+  }
+
+  .au:hover{
+    background-color: rgb(190, 218, 241);   /*hover*/
+}
+.container-flud{
+    display: flex;
+    height: 350px;     /* about us flex*/
+    width: 100%;
+    margin: 40px;
+    nt-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.first{
+    position: relative;
+    left: 200px;   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    /* overflow-x: scroll; */
+
+                             /* image text position*/
+}
+.first p{
+    box-shadow:10px 10px 10px 10px  grey;   /* effect*/
+
+}
+.second{
+     position: relative;
+     left: 400px;
+}
+.second img:hover{
+                border: 5px solid  rgb(218, 155, 20);
+                /* transition: scale(2.8); */
+                transform: scale(1.1);
+                box-shadow: 10px 10px 15px 15px black; 
+}
+
+
+
+

@@ -1,0 +1,69 @@
+.navbar  .container-fluid{
+          background-color: rgb(243, 178, 245);
+}
+/* .second{
+         height: 400px;
+         width: 100%;
+} */
+.container{
+      height: 500px;
+      width: 100%;
+}
+.first{
+    margin: 45px;
+    font-size: 20px;
+    font-family: cursive;
+    color: white;
+}
+
+.second img{
+         
+         position:relative;
+         left: 100px;
+         border-radius:200px;
+         top: 20px;
+         border: 2px solid white;
+}
+.container-flud{
+    height: 350px;
+    width: 100%;
+   display: flex;
+   /* background-color: rgb(145, 231, 152); */
+   /* background-color: black; */
+   
+}
+.second{
+                   position:relative;
+                   left: 400px;
+                   top: 100px;
+                   font-family: cursive;
+}
+.carousel .carousel-inner .carousel-item video{
+      height:500px;
+      width: 100%;
+    
+}
+.four{
+    position: relative;
+    margin: 20px;
+    left: 50px;
+    top: 100px;
+    font-family: cursive;
+}
+.five{
+    position: relative;
+    left: 500px;
+    top: 100px;
+    /* height: 300px;
+    width: 400px;
+    border: 5px solid black;
+    border-top-left-radius: 50px;*/
+} 
+.first{
+    position: relative;
+    left: 50px;
+    /* height: 300px;
+    width: 400px;
+    border: 5px solid black;
+    border-top-left-radius: 50px; */
+}
