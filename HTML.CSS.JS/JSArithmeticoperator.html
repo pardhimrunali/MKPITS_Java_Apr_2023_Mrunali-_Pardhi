@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arithmetic operator</title>
+    <link rel="stylesheet" href="Arithmeticoperator.css">
+</head>
+<body>
+    <h1 id="new"></h1>
+    <button onclick="add()">Click here For Addition</button><br><br>
+    <button onclick="sub()">Click here For Subtraction</button><br><br>
+    <button onclick="mul()">Click here For Multiplication</button><br><br>
+    <button onclick="increment()">Click here For increment</button><br><br>
+    <button onclick="decrement()">Click here For decrement</button><br><br>
+
+
+
+
+    <script>
+        let number1=25;
+        let number2=5;
+        let number3=8;
+        function add(){
+             sum=number1+number2;
+             document.getElementById("new").innerHTML=sum;
+       }
+        function sub(){
+             subt=number3-number2;
+             document.getElementById("new").innerHTML=subt;
+        }
+        function mul(){
+            mult=number3*number2;
+             document.getElementById("new").innerHTML=mult;
+        }
+        function increment(){
+            incr=++number2;
+            document.getElementById("new").innerHTML=incr;
+
+        }
+        function decrement(){
+            decr=--number3;
+            document.getElementById("new").innerHTML=decr;
+
+        }
+
+
+    </script>
+</body>
+</html>

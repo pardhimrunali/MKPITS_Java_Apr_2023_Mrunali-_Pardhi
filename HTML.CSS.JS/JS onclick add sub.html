@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onclick addition subtraction button</title>
+</head>
+<body>
+    <h1 id="new"></h1>
+    <button onclick="full_name()">click on me to see my </button><br><br>
+    <button onclick="add()">click on me to see addition</button><br><br>
+    <button onclick="sub()">click on me to see subtraction</button><br><br>
+    <button onclick="mul()">click on  see multiplication</button><br><br>
+    <button onclick="div()">click on me division</button><br>
+  
+
+    <script>
+        let x=420;
+        let y=42;
+        let first_name="Mrunali";
+        let last_name="Pardhi";
+        function add(){
+            z=x+y;
+            document.getElementById("new").innerHTML=z;
+        }
+        function sub(){
+            z=x-y;
+            document.getElementById("new").innerHTML=z;
+        }
+        function mul(){
+            z=x*y;
+            document.getElementById("new").innerHTML=z;
+        }
+        function div(){
+            z=x/y;
+            document.getElementById("new").innerHTML=z;
+        }
+        function full_name(){
+           let name=first_name+" "+last_name;
+            document.getElementById("new").innerHTML=name;
+        }
+    </script>
+</body>
+</html> 
