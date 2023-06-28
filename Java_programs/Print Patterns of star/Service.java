@@ -20,7 +20,10 @@ public class Service {
             case"patternFive":
                 PatternFive timerPattern=new PatternFive();
                 timerPattern.patternTimer();
-
+            case "patternSix":
+                PatternSix patternsix=new PatternSix();
+                patternsix.patternShape();
+                break;
         }
     }
 }
