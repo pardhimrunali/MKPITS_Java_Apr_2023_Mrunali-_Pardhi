@@ -1,9 +1,27 @@
 interface Interface{
+
+   int number=10;
   public void print();
   
   default void xerox(){
 	  System.out.println("xerox the Copy");
   }
+
+ static void show(){
+
+     System.out.println("Show the output");
+}
+
+private void Activity(){
+
+}
+
+/*protected  void calculate(){
+
+     System.out.println("Show the output");
+}
+*/
+
 	 
   
 }

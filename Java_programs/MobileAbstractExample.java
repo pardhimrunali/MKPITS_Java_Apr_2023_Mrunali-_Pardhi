@@ -3,16 +3,19 @@
         int Mobile_Number;
         abstract void start();
        abstract void close();
-
+ void eat(){
+ System.out.println("Press button to start");
+ }
 
     }
-class methodLogic extends Use {
+ class methodLogic extends Use {
 
 
   void  start() {
         System.out.println("Press button to start");
     }
-    void close(){}
+void close(){}
+   
 }
  class Tab extends Use {
 
@@ -30,7 +33,7 @@ class MobileAbstractExample{
         methodLogic startMobile=new methodLogic();
         startMobile.start();
 
-        /*Use use=new Use();
-           use.start();*/
+      Use use=new Use();
+           use.start();
     }
 }
