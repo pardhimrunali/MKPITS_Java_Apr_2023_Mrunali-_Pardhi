@@ -1,4 +1,4 @@
-public class CalculateSumOfSquareOfFourthNumber {
+public class CalculateSumOfSquareOfFourthNumber  implements sumOfSquareOfFourthNumber{
 
     public void calculateSumOfSquareOfFourthNumber() {
         //Create an array
