@@ -1,4 +1,8 @@
-
+//*
+//* *
+//* * *
+//* * * *
+//* * * * *
 
 public class PateernOfRightAngleTriangle{
 public static void main(String[] args){
