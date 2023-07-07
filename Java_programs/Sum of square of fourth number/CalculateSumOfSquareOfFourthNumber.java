@@ -12,7 +12,7 @@ public class CalculateSumOfSquareOfFourthNumber  implements sumOfSquareOfFourthN
             addition += array[element] * array[element];
         }
 
-        System.out.println("Addition Of Every Fourth Number is =  " + addition);
+        System.out.println(  addition);
 
 
     }

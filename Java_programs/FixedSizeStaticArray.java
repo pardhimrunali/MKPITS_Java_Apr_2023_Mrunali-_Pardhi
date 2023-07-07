@@ -1,5 +1,5 @@
 /**<h1> Print the elements</h1>
-*FixedSizeStaticArray program print the value of give array as a output.
+*FixedSizeStaticArray program print the value of array  elements as a output.
 @author Mrunali Pardhi
 @since 05/07/23
 */
@@ -14,7 +14,7 @@
 **/
 class FixedSizeStaticArray{
 
-public static void main(String args[])
+public static void main(String code[])
 {
 
 // declare datatype and name of an variable and size of the array
@@ -25,9 +25,8 @@ array[0]=20;
 array[1]=40;
 array[2]=80;
 array[3]=70;
-
-for(int count=0;count<5;count++){
-
+// for loop to print the values of array
+for(int count=0;count<4;count++){
 System.out.println(array[count]);
 
 }
