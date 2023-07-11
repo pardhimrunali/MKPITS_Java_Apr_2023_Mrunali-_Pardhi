@@ -1,0 +1,16 @@
+.first{
+    padding: 10px;
+    text-align: center;
+    font-family: cursive;
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(124,253,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+.second{
+    margin-top:30px;
+    padding: 10px;
+    text-align: center;
+    font-family: cursive;
+    background: rgb(34,193,195);
+background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,184,45,1) 100%);
+    
+}

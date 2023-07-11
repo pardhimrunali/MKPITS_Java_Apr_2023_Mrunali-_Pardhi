@@ -1,0 +1,50 @@
+.col {
+         height: 200px;
+         width: 200px;
+        
+         
+
+}.first{
+
+    height: 500px;
+    width: 400px;
+    background: url(graph\ \(3\).png);
+
+}
+.first img{
+    position:relative;
+    top: 100px;
+    left: 80px;
+}
+.second{
+    height:500px;
+    width: 400px;
+    background: url(graph\ \(4\).png);
+
+}
+.second img{
+
+    height: 200px;
+    width: 300px;
+    position: relative;
+    top: 150px;
+    left:90px ;
+}
+.third{
+
+    height:500px;
+    width: 400px;
+    background:url(graph\ \(5\).png);
+
+}
+.third img{
+    position: relative;
+    top: 120px;
+
+}
+/* .four{
+    height:500px;
+    width: 400px;
+    background: url(graph\ \(6\).png);
+
+} */
