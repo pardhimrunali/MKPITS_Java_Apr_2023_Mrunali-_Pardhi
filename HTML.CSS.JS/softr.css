@@ -1,3 +1,8 @@
+
+body{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,109,0.4906337535014006) 50%, rgba(252,176,69,1) 100%);
+}
 .col {
          height: 200px;
          width: 200px;
@@ -42,9 +47,9 @@
     top: 120px;
 
 }
-/* .four{
+.four{
     height:500px;
     width: 400px;
     background: url(graph\ \(6\).png);
 
-} */
+} 
