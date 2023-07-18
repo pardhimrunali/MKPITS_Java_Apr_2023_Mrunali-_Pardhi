@@ -16,15 +16,15 @@ background: linear-gradient(90deg, rgba(36,0,22,1) 0%, rgba(9,90,121,0.843574929
     margin-left: 10px;             
     
 
-}
+ } 
  /* navbar text*/
-.navbar li a:hover{
+ .navbar li a:hover{
     background-color: rgb(108, 204, 221);
     border-radius: 50px;                               
     font-size: 23px;
     color: rgb(17, 14, 9);
     font-family: 'Times New Roman', Times, serif;
-}
+} 
 /*carousel text*/
 .carousel-inner h1{
     font-family:  'Times New Roman', Times, serif;
@@ -120,4 +120,11 @@ background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(45,60,253,0.5718
 .review{
     text-align: center;
     text-shadow: 2px 2px #6808a8;
+}
+
+
+.btn:hover{
+
+    background-color: black;
+    text-shadow: 5px 5px 10px 10px white;
 }

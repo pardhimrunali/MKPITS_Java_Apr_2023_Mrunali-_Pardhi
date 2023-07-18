@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #div2{
+            display: none;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onclick division hide show</title>
+    
+</head>
+<body>
+  <button onclick="getSwitch()">click</button>
+   <div id="div1"><p>Hii</p></div>
+   <div id="div2"><p>byee</p></div>
+
+
+
+  <script>
+    function getSwitch(){
+        if(document.getElementById(div1).style.display=='none')
+{
+    document.getElementById(div1).style.display='block';
+    document.getElementById(div2).style.display='none';
+}
+
+else{
+    document.getElementById(div1).style.display='none';
+    document.getElementById(div2).style.display='block';
+
+}
+    }
+  </script>
+</body>
+</html>
