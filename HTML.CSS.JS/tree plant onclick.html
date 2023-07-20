@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+    <style>
+        #div2{
+            display: none;
+            position: relative;
+            left: 500px;
+            top: 50px;
+          
+           
+           
+        }
+        #div1{
+            position: relative;
+            left: 500px;
+            top: 50px;
+           
+           
+
+
+        }
+        button{
+            background-color: rgb(43, 153, 226);
+        }
+        img{
+            border: 5px solid rgb(12, 153, 83);
+            box-shadow: 10px 10px 5px 5px rgb(18, 95, 18);
+        }
+        body{
+            /* background: rgb(34,193,195);
+background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(45,253,121,0.5718662464985995) 100%); */
+background: rgb(34,193,195);
+background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(175,253,45,0.5718662464985995) 100%);
+}
+        
+        
+         
+    </style>
+</head>
+<body>
+    <h1 align="center">Tree Growth</h1>
+    <div id="div1"  >
+       
+        <br><p><img src="treepixels.jpg" alt="" width="400px" height="400px" ></p>
+        <button onclick="getSwitch()">Tree</button></div>
+   <div id="div2"><p><img src="treegrowth.webp" alt="" ><br>
+    <button onclick="getSwitch()">Growing tree</button></p></div>
+   
+    <script>
+        function getSwitch(){
+            if(document.getElementById('div1').style.display=='none')
+    {
+        document.getElementById('div1').style.display='block';
+        document.getElementById('div2').style.display='none';
+    }
+    
+    else{
+        document.getElementById('div1').style.display='none';
+        document.getElementById('div2').style.display='block';
+    
+    }
+        }
+      </script>
+</body>
+</html>

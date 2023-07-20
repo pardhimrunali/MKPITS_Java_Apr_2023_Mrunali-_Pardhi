@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+    <style>
+        #div2{
+            display: none;
+            /* position: relative;
+            left: 500px;    */
+          
+        }
+        #div1{
+            /* position: relative;
+            left: 500px; */
+           
+         }
+        button{
+            background-color: rgb(11, 14, 15);
+            color: white;
+        }
+       
+         </style>
+</head>
+<body>
+    <h1 align="center">Bulb on And Off</h1>
+    <div id="div1"  >
+       
+        <br><p><img src="bulb.png" alt=""  ></p>
+        <button onclick="getSwitch()">Click here to switch on</button></div>
+   <div id="div2"><p><img src="bulbgiphy.gif" alt="" ><br>
+    <button onclick="getSwitch()">click here to switch off</button></p></div>
+   
+    <script>
+        function getSwitch(){
+            if(document.getElementById('div1').style.display=='none')
+    {
+        document.getElementById('div1').style.display='block';
+        document.getElementById('div2').style.display='none';
+    }
+    
+    else{
+        document.getElementById('div1').style.display='none';
+        document.getElementById('div2').style.display='block';
+    
+    }
+        }
+      </script>
+</body>
+</html>

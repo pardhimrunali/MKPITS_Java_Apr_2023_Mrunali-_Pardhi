@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+    <style>
+        #div2{
+            display: none;
+            position: relative;
+            left: 350px;
+            top: 100px;
+        }
+        #div1{
+            position: relative;
+            left: 350px;
+            top: 100px;
+
+
+        }
+        button{
+            background-color: rgb(212, 181, 240);
+        }
+        body{
+            background-color: rgb(36, 22, 5);
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="div1"><p><img src="eat.png" alt=""></p>
+        <button onclick="getSwitch()">Group of girls </button></div>
+   <div id="div2"><p><img src="gifeat.gif" alt=""><br>
+    <button onclick="getSwitch()">Group of girls eating food</button></p></div>
+   
+    <script>
+        function getSwitch(){
+            if(document.getElementById('div1').style.display=='none')
+    {
+        document.getElementById('div1').style.display='block';
+        document.getElementById('div2').style.display='none';
+    }
+    
+    else{
+        document.getElementById('div1').style.display='none';
+        document.getElementById('div2').style.display='block';
+    
+    }
+        }
+      </script>
+</body>
+</html>
