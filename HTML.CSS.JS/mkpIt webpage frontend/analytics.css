@@ -1,0 +1,45 @@
+
+body {
+    margin: 0;
+    
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #000000;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    box-shadow: 1px 10px 20px 2px black;
+  }
+  
+  li a {
+    display: block;
+    color: #ffffff;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin-top: 50px;
+  }
+  
+  li a.active {
+    background-color: #0b070f;
+    color: white;
+  }
+  
+ .card-body{
+    display: flex;
+  
+   background-color: rgb(145, 158, 235);
+ } 
+
+ .card-title{
+    align-items: center;
+    margin-left: 400px;
+    margin-right: 10px;
+ }
+ #columnchart_material{
+    margin-left: 300px;
+ }

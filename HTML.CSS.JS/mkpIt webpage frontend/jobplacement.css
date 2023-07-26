@@ -1,0 +1,44 @@
+.navbar{   /* navbar background color*/
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(147,52,171,0.33657212885154064) 37%, rgba(39,158,172,1) 86%, rgba(190,30,130,0.22452731092436973) 100%);
+    /* background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(147,52,171,1) 66%, rgba(172,39,147,1) 86%, rgba(190,30,130,0.22452731092436973) 100%); */
+    /* background: rgb(34,193,195);
+background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(86,45,253,0.7483368347338936) 100%); */
+
+    /* background: rgb(36,0,22);
+background: linear-gradient(90deg, rgba(36,0,22,1) 0%, rgba(9,90,121,0.8435749299719888) 35%, rgba(0,212,255,1) 100%); */
+}
+  /* navbar text*/
+.navbar li a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+    margin-left: 10px;             
+    
+
+ } 
+ /* navbar text*/
+ .navbar li a:hover{
+    background-color: rgb(108, 204, 221);
+    border-radius: 50px;                               
+    font-size: 23px;
+    color: rgb(17, 14, 9);
+    font-family: 'Times New Roman', Times, serif;
+} 
+h1{
+  
+    position: relative;
+    top: 150px;
+    background-color: rgb(238, 202, 236);
+    padding: 15px;
+   
+} 
+.first{
+    position: relative;
+    top: 200px;
+    padding: 80px;
+}
+.footer{
+    position: relative;
+    top: 100px;
+}

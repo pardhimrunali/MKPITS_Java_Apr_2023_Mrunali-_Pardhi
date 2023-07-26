@@ -1,0 +1,48 @@
+.container{
+    background-image: url(software2.jpg);
+    background-size: cover;
+    position: relative;
+    top: 100px;
+    padding: 50px;
+    box-shadow: 50px 10px 10px 20px rgb(183, 153, 212);
+   
+}
+
+img{
+    position: relative;
+ left: 380px;
+}
+tbody{
+    background-color: rgb(223, 255, 255);
+}
+
+
+
+/* .login{
+    border: 5px solid rgb(138, 138, 201);
+    padding: 50px;
+    height: 400px;
+    width: 500px;
+    box-shadow: 5px 10px 10px 10px rgb(183, 153, 212);
+     margin-left: 400px;
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+
+}
+tr{
+    color:white;
+    font-size:16px;
+    text-shadow: 10px 10px 10px 10px rgb(248, 228, 228);
+}
+
+
+ img{
+    margin-left:150px;
+    margin-bottom: 15px;
+}
+button{margin-left:150px;
+    margin-bottom: 15px;
+margin-top: 30px;
+font-size: 30px;}  */

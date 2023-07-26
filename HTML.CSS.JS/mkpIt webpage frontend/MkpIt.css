@@ -1,0 +1,143 @@
+.navbar{   /* navbar background color*/
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(147,52,171,0.33657212885154064) 37%, rgba(39,158,172,1) 86%, rgba(190,30,130,0.22452731092436973) 100%);
+    /* background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(147,52,171,1) 66%, rgba(172,39,147,1) 86%, rgba(190,30,130,0.22452731092436973) 100%); */
+    /* background: rgb(34,193,195);
+background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(86,45,253,0.7483368347338936) 100%); */
+
+    /* background: rgb(36,0,22);
+background: linear-gradient(90deg, rgba(36,0,22,1) 0%, rgba(9,90,121,0.8435749299719888) 35%, rgba(0,212,255,1) 100%); */
+}
+  /* navbar text*/
+.navbar li a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+    margin-left: 10px;             
+    
+
+ } 
+ /* navbar text*/
+ .navbar li a:hover{
+    background-color: rgb(108, 204, 221);
+    border-radius: 50px;                               
+    font-size: 23px;
+    color: rgb(17, 14, 9);
+    font-family: 'Times New Roman', Times, serif;
+} 
+/*carousel text*/
+.carousel-inner h1{
+    font-family:  'Times New Roman', Times, serif;
+
+}
+
+/*about h1*/
+
+ .abouthead{  
+    background: rgb(36,0,22);
+background: linear-gradient(90deg, rgba(36,0,22,1) 0%, rgba(73,9,121,0) 35%, rgba(0,212,255,1) 100%);
+    /*background: rgb(36,0,22);
+    background: linear-gradient(90deg, rgba(36,0,22,1) 0%, rgba(73,9,121,0.8435749299719888) 35%, rgba(0,212,255,1) 100%); */
+    
+    /* background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,109,0) 50%, rgba(252,176,69,1) 100%); */
+    font-size: 30px;
+    font-family:  'Times New Roman', Times, serif;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* paragraph1*/
+.para1{
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+/*image*/
+.containeraboutus img{
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    box-shadow: 5px 10px 10px 5px rgb(11, 5, 71);
+  
+}
+/*list*/
+.containeraboutus ul li{
+    margin-bottom: 15px;
+}
+
+
+
+   
+
+/*why mkpit*/
+
+.containerwhy p{
+    padding: 30px;
+
+}
+/*why mkpit h3*/
+.containerwhy h3{
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif ;
+}
+
+.containerwhy .row .first{
+    
+    background: rgb(34,193,195);
+background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(45,253,230,0.5718662464985995) 100%);
+    /* background-color: rgb(174, 235, 235); */
+
+}
+
+/*card hover*/
+.card{
+    margin-left: 60px;
+    border: 5px solid  rgb(34, 6, 87);                /* card hover*/
+    /* transition: scale(2.8); */
+    transform: scale(1);
+    box-shadow: 10px 10px 15px 15px black;
+
+}
+.aboutheadcourse {
+    box-shadow: 5px 5px 10px 10px rgb(184, 164, 197);
+    margin-top: 20px; 
+    background: rgb(34,193,195);
+background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(45,60,253,0.5718662464985995) 100%);
+
+    /* background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(49,253,45,0.5718662464985995) 100%); */
+}
+
+.cardnew img{
+    border-radius: 50%;
+}
+
+
+.company{
+    text-align: center;
+    text-shadow: 2px 2px #6808a8;
+}
+.review{
+    text-align: center;
+    text-shadow: 2px 2px #6808a8;
+}
+
+
+.btn:hover{
+
+    background-color: black;
+    text-shadow: 5px 5px 10px 10px white;
+}
+
+/*heading of about adjust*/
+.aligntext h1{
+    padding: 15px;
+     position: relative;
+    top: 150px;
+    background-color: rgb(238, 202, 236);
+margin-bottom: 200px;
+}
+
+
+
+
