@@ -16,8 +16,8 @@ for(  count=0;count<array.length;count++){
 	
 	if( count==array.length)
 		{
-		System.out.println("Number is not found");
-	}
+		  System.out.println("Number is not found");
+	    }
 	}
 
 }
