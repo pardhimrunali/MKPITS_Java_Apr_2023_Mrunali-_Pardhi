@@ -11,6 +11,11 @@ public class Main {
         //power of method 20*20*20*20 return 160000
         System.out.println("4. Power of firstnumber and secondnumber is  "+Math.pow(firstNumber,secondNumber));
         System.out.println("5.Logarithmic value of secondnumber is  "+Math.log(secondNumber));
+		//ceil method static double
+//ceil(double a)
+//Returns the smallest (closest to negative infinity) double value that is greater than or equal to the argument and is equal to a mathematical integer.
+	double third=4.4;
+	System.out.println("6. "+Math.ceil(third));
 
     }
 }
