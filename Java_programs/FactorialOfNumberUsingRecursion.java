@@ -3,6 +3,7 @@ class FactorialOfNumberUsingRecursion{
 public static void main(String args[])
 {
 Factorial();
+System.out.println("Factorial of Number "+ " is "+ f);	
 }
 //Scanner sc=new Scanner(System.in);
 		//System.out.println("Enter the Number");
@@ -20,7 +21,7 @@ if(count<5)
 		
 		}
 		
-System.out.println("Factorial of Number "+ " is "+ f);	
+
 		
 }
 
