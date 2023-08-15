@@ -14,8 +14,9 @@ try {
 catch(ArrayIndexOutOfBoundsException e ){
     System.out.println("Array is complete");
 }
+//finally block is executed whether there is exception or not
 finally {
-    System.out.println("");
+    System.out.println("Array over");
 }
     }
 }

@@ -3,7 +3,7 @@ public class Colors {
     public  static void main(String[] args)
     {
         for(color c:color.values())//values() method
-            System.out.println(c);git 
+            System.out.println(c);
         {
 
             //valuesOf() method
