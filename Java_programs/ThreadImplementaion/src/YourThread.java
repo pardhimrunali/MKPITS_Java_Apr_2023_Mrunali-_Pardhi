@@ -11,4 +11,6 @@ public class YourThread extends Thread{
         System.out.println(Thread.currentThread().getPriority());
     }
     }
+
+
 }
