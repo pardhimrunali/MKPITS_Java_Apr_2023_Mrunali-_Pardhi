@@ -1,6 +1,6 @@
 public class WaitMethod extends Thread{
    int total=0;
-    @Override
+    @Override 
     public void run()
     {
         synchronized (this){
