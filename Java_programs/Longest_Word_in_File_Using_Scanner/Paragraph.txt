@@ -1,0 +1,1 @@
+parameter is used to take input from the standard input. It works just like taking inputs from the keyboard.
