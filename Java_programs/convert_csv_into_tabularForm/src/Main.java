@@ -14,8 +14,10 @@ public class Main {
         String array[]=read.split(",");
         for(int count=0;count<array.length;count++)
         {
-            System.out.println(array[count]);
+            System.out.print(array[count]+"\t");
+
         }
+        System.out.println("");
         read=readData.readLine();
 
 
