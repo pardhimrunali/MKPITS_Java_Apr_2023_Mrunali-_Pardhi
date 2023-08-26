@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="21fc3d1b-2734-46cb-a967-9afc4afdc004" name="Changes" comment="" />
+    <list default="true" id="21fc3d1b-2734-46cb-a967-9afc4afdc004" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Menu_driven_progrm_of_StudentData/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Menu_driven_progrm_of_StudentData/src/StudentData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +18,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2Rl2WYs5EArpAnAaNZNpGU40F7H" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -20,7 +31,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/MKPITS/MKPITS_Java_Apr_2023_Mrunali-_Pardhi/Java_programs/Calculator by switchcase",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/MKPITS/MKPITS_Java_Apr_2023_Mrunali-_Pardhi/Java_programs/Menu_driven_progrm_of_StudentData",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
