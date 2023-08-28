@@ -29,7 +29,8 @@ public class Main {
      //   iterator()
      //   Returns an iterator over the elements in this set.
         Iterator i=mark.iterator();
-        System.out.println(i.next());
+        while (i.hasNext()){
+        System.out.println("Marks of student are:"+" "+i.next());}
 
         Integer [] markmath={45,87,99,78};
         Integer [] markscience={405,807,909,78};
@@ -49,8 +50,17 @@ public class Main {
 
 
         HashSet difference=new HashSet(hs1);
-        difference.contains(hs2);
+        difference.removeAll(hs2);
         System.out.println("Diffrence of set is:-"+" "+difference);
+
+        HashSet<Integer> list1 = new HashSet<>(Arrays.asList(1, 2, 3, 4, 5));
+        HashSet<Integer> list2 = new HashSet<>(Arrays.asList(3, 4, 5, 6, 7));
+
+        // Using removeAll() method (for Lists and Sets)
+        HashSet<Integer> difference1 = new HashSet(list1);
+        difference1.removeAll(list2);
+        System.out.println("Difference using removeAll: " + difference1);
+
 
 
 
