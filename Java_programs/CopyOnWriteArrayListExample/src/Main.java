@@ -21,8 +21,9 @@ public class Main {
 
         //add(int index, E element)
         //Inserts the specified element at the specified position in this list.
-        number.add(2,800);
-        System.out.println(number);
+
+         number.add(2,800);
+         System.out.println(number);
 
 
         //addAll(int index, Collection<? extends E> c)
@@ -43,9 +44,10 @@ public class Main {
         System.out.println("Sorted Value of number:-"+" "+number);
 
 
-        //   clone()
-     //   Returns a shallow copy of this list.
-        System.out.println("Copy of Array is:-"+" "+number.clone());
+         //clone()
+         //Returns a shallow copy of this list.
+
+        System.out.println("Copy of Array is:-"+number.clone());
 
 
     }
