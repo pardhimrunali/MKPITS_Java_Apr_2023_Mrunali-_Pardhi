@@ -6,5 +6,8 @@ class  Third implements First,Second{
         First.super.display();
         Second.super.display();
     }
+
+
+
 }
 
