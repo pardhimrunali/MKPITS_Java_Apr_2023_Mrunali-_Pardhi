@@ -3,7 +3,7 @@ import java.util.PriorityQueue;
 
 public class Main {
     public static void main(String[] args) {
-        PriorityQueue<Integer> mark = new PriorityQueue();
+        PriorityQueue<Integer> mark = new PriorityQueue(20);
         mark.add(78);
         mark.add(97);
         mark.add(63);
@@ -51,6 +51,7 @@ public class Main {
         //  retainAll(Collection<?> c)
       //  Retains only the elements in this collection that are contained in the specified collection (optional operation).
         System.out.println(mark.retainAll(mark_science));
+
 
     }
 }
