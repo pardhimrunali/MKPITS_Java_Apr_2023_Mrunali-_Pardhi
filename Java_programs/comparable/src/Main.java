@@ -11,6 +11,8 @@ public class Main {
         students[2]=new Student("crunal",10);
         students[3]=new Student("pk",80);
 
+
+
 data.addAll(Arrays.asList(students));
         Collections.sort(data);
         for (Student p:data

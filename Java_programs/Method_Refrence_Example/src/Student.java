@@ -3,6 +3,7 @@ public class Student {
     int marks;
 
     public Student() {
+        System.out.println("Hii Iam FullStack Developer");
     }
 
     public Student(int roll_number, int marks) {
