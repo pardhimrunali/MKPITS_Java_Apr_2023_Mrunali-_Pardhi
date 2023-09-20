@@ -22,6 +22,7 @@ public class Main {
         System.out.println(minimunage);
         Student maximumage=showData.stream().max(Comparator.comparingInt(Student::getAge)).get();
         System.out.println("Maximum age of student is:-"+maximumage);
+
         
 
 
