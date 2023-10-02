@@ -39,6 +39,8 @@ select * from mark_details where physics not between 25 and 50
 
 SET SQL_SAFE_UPDATES = 0;
 
+use student_management
+select * from mark_details
 //----modify record
 update mark_details set physics=45 where roll_no=01
 
