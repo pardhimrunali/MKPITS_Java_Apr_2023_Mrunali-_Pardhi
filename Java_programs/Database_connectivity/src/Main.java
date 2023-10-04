@@ -41,6 +41,9 @@ public class Main {
             ConnectivityOFDatabase.displaydata();
             break;
 
+            case 3:
+
+
             default:
         }
     }
