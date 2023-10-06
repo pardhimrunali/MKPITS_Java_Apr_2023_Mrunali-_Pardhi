@@ -67,5 +67,6 @@ delete from mark_details where roll_no=03
 
 
 
-
+use sys
+show tables
 
