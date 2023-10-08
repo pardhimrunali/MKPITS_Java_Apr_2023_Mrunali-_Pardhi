@@ -1,4 +1,4 @@
-/*List the names of customers who have rented the film titled "Alien Center".*/
+/*List the names of customers who have rented the film titled"Alien Center".*/
 select* from customer /*customerid*/
 select* from rental /*customerid*/ /*store_id*/
 select* from inventory  /*store_id*/ /*film id*/
