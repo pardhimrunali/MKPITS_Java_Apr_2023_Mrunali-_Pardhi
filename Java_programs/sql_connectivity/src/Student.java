@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Student {
 
     private String rollNo;
@@ -25,4 +27,6 @@ public class Student {
     public String getStud_address() {
         return stud_address;
     }
+    
+
 }
