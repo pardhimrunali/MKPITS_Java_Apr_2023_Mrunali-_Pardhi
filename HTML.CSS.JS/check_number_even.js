@@ -1,9 +1,9 @@
 function check_even_number()
 {
-    const values=[12,5,78];
+    var values=["1","5","78"];
     for(var count=0;count<values.length;count++)
     {
-        if(count%2==0)
+        if(values[count]%2==0)
         {
             document.write("nuber are even"+values[count]+"<br>");
         }
