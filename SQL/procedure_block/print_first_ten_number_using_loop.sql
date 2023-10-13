@@ -1,6 +1,5 @@
 
 DELIMITER //
-
 CREATE  PROCEDURE priint_loop()
 BEGIN
 declare counter int;
