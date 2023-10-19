@@ -57,3 +57,6 @@ insert into marks value(16,5,50)
 
 /*delete*/
 
+delimiter //
+
+
