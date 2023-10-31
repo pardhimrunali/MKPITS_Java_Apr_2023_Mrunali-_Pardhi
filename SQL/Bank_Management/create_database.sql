@@ -12,3 +12,6 @@ user_amount double,transactiontype varchar(20),
 constraint f_k foreign key(user_id) references account(user_id)   )
 
 select * from transactions
+
+create table image(id int,user_image BLOB(65000))
+select * from image
