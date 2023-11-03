@@ -1,0 +1,89 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: as
+  Date: 03-11-2023
+  Time: 16:39
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <style>
+
+        .second{
+            margin-top: 30px
+
+        }
+        .first{
+            height:500px;
+            width: 500px;
+            margin-top: 50px;
+            margin-left:70px;
+            background: rgb(34,193,195);
+            background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(166,85,135,0.6362920168067228) 100%);
+        }
+        body{
+            background: rgb(238,174,202);
+            background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,233,229,1) 100%);
+        }
+    </style>
+</head>
+<body>
+<center><h1>Your Money Is Safe With Us....!!!</h1></center>
+<center>  <div class="first">
+    <form action="RegistrationUserData.jsp" method="post" class="second">
+        <table align="center" cellspacing="40" cellpadding="10">
+            <tr>
+                <td><em><b><label >USER ID-</label></b></em></td>
+                <td><input type="text" class="btn btn-light"  name="user_name" ></td>
+            </tr>
+
+            <tr>
+                <td><em><b><label>PASSWORD-</label></b></em></td>
+                <td><input type="text" class="btn btn-light" name="p_name" ></td>
+
+            </tr>
+            <tr>
+                <td><em><b><label for="L_name">NAME-</label></b></em></td>
+                <td><input type="text" class="btn btn-light"  name="name" ></td>
+
+            </tr>
+            <tr>
+                <td><em><b><label for="L_name">ADDRESS-</label></b></em></td>
+                <td><input type="text"  class="btn btn-light"  name="addr" ></td>
+
+            </tr>
+
+            <tr>
+                <td><em><b><label for="L_name">CITY-</label></b></em></td>
+                <td><input type="text"  class="btn btn-light"  name="city" ></td>
+
+            </tr>
+
+            <tr>
+                <td><em><b><label for="L_name">EMAIL_ID-</label></b></em></td>
+                <td><input type="text"  class="btn btn-light"  name="mail" ></td>
+
+            </tr>
+
+            <tr>
+                <td><em><b><label for="L_name">BALANCE-</label></b></em></td>
+                <td><input type="text" class="btn btn-light"  name="balance" ></td>
+
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center"><input type="SUBMIT" NAME="submit"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><h4><a href="index.jsp">LOG IN HERE</a></h4></td>
+            </tr>
+
+        </table>
+    </form>
+</div>
+</center>
+</body>
+</html>
