@@ -15,3 +15,13 @@ select * from transactions
 
 create table image(id int,user_image BLOB(65000))
 select * from image
+
+
+
+
+
+
+
+
+use student
+select * from student_detail
