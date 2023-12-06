@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+
+    <meta charset="UTF-8">
+    <title>showdata</title>
+
+
+</head>
+<body>
+ Roll No-<p th:text="${stud.roll_no}"/></center></h1>
+NAME-<p th:text="${stud.name}"/></center></h1>
+CITY-<p th:text="${stud.city}"/></center></h1>
+
+ GENDER-<p th:text="${stud.gender}"/></center></h1>
+ LANGUAGES-<p th:text="${stud.language}"/></center></h1>
+ PASSWORD-<p th:text="${stud.password}"/></center></h1>
+ IMAGE-<p th:text="${stud.pic}"/></center></h1>
+<img  src="images/bodybackground.jpg" height="200px" width="200px">
+<img th:src="${stud.pic}" height="200px" width="300px"/>
+</body>
+</html>
