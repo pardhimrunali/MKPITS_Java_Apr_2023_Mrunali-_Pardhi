@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>display all data</title>
+
+</head>
+<body>
+<h2><center>List Of All Student</center> </h2>
+<table>
+
+    <a th:href="@{/register}">Add Student</a>
+
+    <tr>
+        <th>ROLL NO</th>
+        <th>NAME</th>
+        <th>CITY</th>
+
+
+    </tr>
+
+
+    <tr th:each="s : ${show}">
+        <td th:text="${s.roll_no}"></td>
+        <td th:text="${s.name}"></td>
+        <td th:text="${s.city}"></td>
+        <td><a >Update</a></td>
+        <td><a th:href="@{/delete}">DELETE</a></td>
+        <td >
+            <form th:action="@{/delete}" method="">
+                <input type="hidden" name="roll_no" th:value="${s.roll_no}" />
+                <input type="submit" value="Delete" class="btn btn-danger" />
+
+            </form>
+        </td>
+    </tr>
+
+
+</table>
+</body>
+</html>
