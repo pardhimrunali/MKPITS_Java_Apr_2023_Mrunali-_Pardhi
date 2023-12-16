@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>train details</title>
+</head>
+<body>
+<form th:action="@{/saveRecord}" th:object="${save}" method="post">
+  <table>
+    <tr>
+      <td>Train Id</td>
+      <td><input type="text" th:field="*{train_id}"></td>
+    </tr>
+
+    <tr>
+      <td>Train Name</td>
+      <td><input type="text" th:field="*{train_name}"></td>
+    </tr>
+    <tr>
+      <td>No_of_bogie</td>
+      <td><input type="text" th:field="*{no_of_bogie}"></td>
+    </tr>
+    <tr>
+      <td>Source_stations</td>
+      <td><input type="text" th:field="*{source_stations}"></td>
+    </tr>
+    <tr>
+      <td>Define_train_types</td>
+      <td><input type="text" th:field="*{define_train_types}"></td>
+    </tr>
+    <tr>
+      <td>End_stations</td>
+      <td><input type="text" th:field="*{end_station}"></td>
+    </tr>
+    <tr>
+      <td>Types_of_bogie</td>
+      <td><input type="text" th:field="*{types_of_bogie}"></td>
+    </tr>
+    <tr>
+      <td>No.of seats</td>
+      <td><input type="text" th:field="*{no_of_seats}"></td>
+    </tr>
+    <tr>
+      <td>train_frequency</td>
+      <td><input type="text" th:field="*{train_frequency}"></td>
+    </tr>
+    <tr>
+      <td colspan="2"><input type="submit" th:value="SUBMIT"></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>
