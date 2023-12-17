@@ -9,6 +9,13 @@ primary key(roll_no)
 
 select * from student
 
+ALTER TABLE student
+ADD image BLOB(65000)
 
+
+
+
+create table image(id int,user_image BLOB(65000))
+select * from image
 
 
