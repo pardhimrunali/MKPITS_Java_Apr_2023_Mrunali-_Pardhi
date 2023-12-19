@@ -9,6 +9,17 @@ primary key(roll_no)
 
 select * from student
 
+select * from student_info
+select * from address_info
+select * from address_info_seq
+
+
+
+
+
+
+
+
 ALTER TABLE student
 ADD image BLOB(65000)
 
